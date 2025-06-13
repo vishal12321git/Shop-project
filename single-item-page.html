@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Website</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,600,1,0&icon_names=shopping_cart" />
+    <link rel="stylesheet" href="./css/single-item-page.css">
+    </link>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-upper-container">
+            <div class="navbar-upper-content">
+                <div class="sidebar-logo-container">
+                    <a href="item-listing-page.html">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                            class="sidebar-logo">
+                            <g>
+                                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                </div>
+                <a class="navbar-heading">SHOP</a>
+                <div class="cart-logo-container">
+                    <a href="cart-page.html">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                            class="cart-logo">
+                            <g>
+                                <path
+                                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                    <div class="cart-item-number"></div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-lower-container">
+            <div class="navbar-category">
+                <a href="item-listing-page.html">Men's Outerwear</a>
+                <a href="item-listing-page.html">Ladies Outerwear</a>
+                <a href="item-listing-page.html">Men's T-Shirts</a>
+                <a href="item-listing-page.html">Ladies T-Shirts</a>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div>Men's Outerwear</div>
+            <div>Ladies Outerwear</div>
+            <div>Men's T-Shirts</div>
+            <div>Ladies T-Shirts</div>
+        </div>
+    </header>
+    <main>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="./assets/images/product-img/10-13058A.jpg">
+            </div>
+            <div class="product-detail">
+                <h1 class="product-name">YouTube Organic Cotton T-Shirt - Grey</h1>
+                <div class="product-price">$14.75</div>
+                <div class="size-container">
+                    <label for="cars">Size</label>
+                    <select class="size-select">
+                        <option >XS</option>
+                        <option >S</option>
+                        <option selected>M</option>
+                        <option >L</option>
+                        <option >XL</option>
+                    </select><br>
+                </div>
+                <div class="quantity-container">
+                    <label for="cars">Quantity</label>
+                    <select class="quantity-select">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="mercedes">3</option>
+                        <option value="audi">4</option>
+                        <option value="audi">5</option>
+                    </select>
+                </div>
+
+                <h2 class="desc-heading">Description</h2>
+                <p class="desc">
+                    Stay casual and cool in this 100% organic pre-shrunk cotton T-shirt.
+                    Available in charcoal grey with full-color YouTube logo screened on front.
+                </p>
+                <button class="addToCartBtn">ADD TO CART</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="made-by-polymer">Made by Polymer</a>
+        <div class="demo">
+            DEMO ONLY
+        </div>
+    </footer>
+</body>
+
+</html>
