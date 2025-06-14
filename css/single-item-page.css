@@ -140,23 +140,32 @@ main {
 }
 @media (min-width:768px){
     .product-detail{
-        margin:64px 32px;
+        padding:64px 32px;
         width:100%;
         max-width:400px;
         transition:opacity 0.4s;
         max-height: 500px;
         height: 100%;
-        padding:0px 20px;
+        justify-self: end;
+        /* border:1px solid orange; */
     }
 }
 .product-image {
     height: 100%;
-    margin:0 auto;
+    margin:0px auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
-
+@media (min-width:768px){
+    .product-image {
+    height: 100%;
+    margin:64px 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+}
 .product-image>img {
     width: 100%;
 }
